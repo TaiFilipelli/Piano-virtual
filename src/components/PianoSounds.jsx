@@ -8,7 +8,7 @@ const PianoSounds = forwardRef((props, ref) => {
   const [showReferences, setShowReferences] = useState(false);
     const sounds = useRef({
       A3: new Pizzicato.Sound({source:'file',options:{path:'src/assets/music/a3.mp3'}}),
-      A_3: new Pizzicato.Sound({source:'file',options:{path:'src/assets/a-3.mp3'}}),
+      A_3: new Pizzicato.Sound({source:'file',options:{path:'src/assets/music/a-3.mp3'}}),
       C3: new Pizzicato.Sound({source:'file',options:{path:'src/assets/music/c3.mp3'}}),
       C_3: new Pizzicato.Sound({source:'file',options:{path:'src/assets/music/c-3.mp3'}}),
       D3: new Pizzicato.Sound({source:'file',options:{path:'src/assets/music/d3.mp3'}}),
