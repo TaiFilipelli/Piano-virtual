@@ -9,10 +9,15 @@
   font-family: 'Spacema XB';
   src: url('assets/fonts/Spacema/Spacema-ExtraBlack.otf');
 }
+@font-face {
+  font-family: 'Minzeeca Bold';
+  src: url(../assets/fonts/Minzeeca-Bold-iF66262cd7a4b0b.otf);
+}
 body{
   background: linear-gradient( to bottom, #9BA8AB,#06141B);
   background-size: cover;
   background-position: center;
+  justify-content: center;
 }
 body.light-mode{
   background: linear-gradient(to bottom, #e8bcb9, #f39f54 );
@@ -39,9 +44,9 @@ h1.light-mode{
   background-image: linear-gradient(to bottom,#1d1439,#451952);
 }
 .tuto{
-  font-family:sans-serif;
+  font-family:'Minzeeca Bold';
   color: #11212D;
-  font-size: 2em;
+  font-size: 1.5em;
   margin-bottom: 70px;
 }
 p.light-mode{
@@ -68,6 +73,7 @@ button.negra{
   background-color: #000000;
 }
 button span{
+  font-family: 'Minzeeca Bold';
   position: absolute;
   bottom: 5px;
   left: 50%;

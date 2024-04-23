@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Minzeeca Bold';
+    src: url(../assets/fonts/Minzeeca-Bold-iF66262cd7a4b0b.otf);
+}
+.type-selector{
+    margin-bottom: 20px;
+}
+label{
+    font-family:'Minzeeca Bold';
+    font-size: 1.5em;
+    margin-right: 15px;
+    color:#11212D;;
+}
+.input{
+    font-family: 'Minzeeca Bold';
+    border-radius: 4px;
+}

@@ -1,4 +1,9 @@
+@font-face {
+  font-family: 'Minzeeca Bold';
+  src: url(../assets/fonts/Minzeeca-Bold-iF66262cd7a4b0b.otf);
+}
 .dark-mode-btn {
+  font-family: 'Minzeeca Bold';
     background-color: #000000;
     color: #ffffff;
     border: none;
