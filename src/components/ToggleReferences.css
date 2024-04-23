@@ -1,0 +1,15 @@
+.referencias{
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+@media(max-width:385px){
+    .referencias{
+        margin-left: 10px;
+    }
+}
