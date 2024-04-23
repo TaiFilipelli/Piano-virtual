@@ -8,8 +8,8 @@
     ],
     "routes": [
       {
-        "src": "/src/assets/music/(.*)",
-        "dest": "src/assets/music/$1"
+        "src": "/assets/music/(.*)",
+        "dest": "/assets/music/$1"
       }
     ]
   }
