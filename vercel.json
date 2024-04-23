@@ -1,0 +1,8 @@
+{
+    "static": {
+      "include": [
+        "src/assets/music/**/*.mp3"
+      ]
+    }
+  }
+  
